@@ -1,6 +1,7 @@
 <template>
-  <v-app info>
+  <v-app light>
     <v-navigation-drawer
+      light
       persistent
       :mini-variant="miniVariant"
       :clipped="clipped"
@@ -28,10 +29,9 @@
     </v-navigation-drawer>
     
     
-    <v-toolbar>
+    <v-toolbar light fixed>
       <v-toolbar-side-icon @click.native.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-btn 
-        icon
+      <v-btn icon
         @click.native.stop="miniVariant = !miniVariant"
       >
         <v-icon v-html="miniVariant ? 'chevron_right' : 'chevron_left'"></v-icon>
