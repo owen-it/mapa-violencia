@@ -42,5 +42,4 @@
   .vue-map {
     height: 100%;
   }
-
 </style>

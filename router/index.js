@@ -22,8 +22,7 @@ export function createRouter () {
       mode: 'history',
       scrollBehavior: () => ({ y: 0 }),
       routes: [
-        route('/', 'Welcome'),
-        route('/inspire', 'Inspire'),
+        route('/', 'Map'),
         // Global redirect for 404
         { path: '*', redirect: '/' }
       ]
