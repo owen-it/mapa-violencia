@@ -1,0 +1,7 @@
+<template>
+  <v-layout column align-horiz-center align-vert-center>
+    <v-flex xs12 sm8 md6>
+        map
+    </v-flex>
+  </v-layout>
+</template>
